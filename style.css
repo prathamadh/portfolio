@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+.background{
+    background: url("bck.jpg" );
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+div.container{
+
+    padding-top: 200px;
+    color: white;
+    padding-left: 10%;
+    width: 50%;
+    float:left;
+    border: 1px;
+}
+div.photo{
+   padding-top: 0px; 
+   width:50%;
+   float :right;
+   margin:0px
+   
+}
+.pp{
+  
+   width: 90%;
+  
+}
+div.secondpage{
+  
+    margin-top: 0px;
+    background: url("secback1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  
+ 
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+div.card{
+   
+    width: 200px;
+    height: 200px;
+    background: rgb(40, 38, 38,0.4);
+    
+    border-radius: 20px;
+    transition:0.5s;
+    object-fit:fill;
+    min-height: 190;
+}
+
+div.card.f{
+    margin-left: 5%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;;
+    width: 70%;
+    height:500px;
+    
+   color: rgb(233, 227, 227);
+   font-size: large;
+   font-weight: 500;
+   text-align: justify;
+
+}
+.work{
+    margin-top: 0x;
+    padding-top: 600px;
+    font-size: larger;
+    color: rgb(123, 114, 114);
+    padding-left: 30%;
+    font-style: oblique;
+    font-weight: 700;
+}
+.hr{
+    color:white;
+    width: 10px;
+}
+div.thirdpage{
+    background: url(male.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+height: 800px;
+    min-height: 700;
+    padding-top: 20px;
+    
+}
+div.card.s{
+    height: 190px;
+    width: 230px;
+    position: absolute;
+    margin-left: 50%;
+    margin-top:10% ;
+    padding:10% 0px 0px 10px;
+    background: rgba(45, 54, 111, 0.912);
+    
+
+}
+div.card.s:hover{
+    height: 300px;
+    width: 400px;
+    transform: translateY(-100px);
+    overflow: visible;
+  
+    
+}
+img.roboarm{
+    position:absolute;
+   width: 100%;
+   object-fit: cover;
+}
+div.imagebox{
+    position:absolute;
+    left: 50%;
+    top:-50%;
+    width:150px;
+    height:150px;
+    transform: translateX(-50%);
+}
+div.text{
+   transform: translateY(-80px);
+    color:red;
+    text-align: center;
+    font-weight: 500;
+    overflow:hidden;
+  
+}
+ div.card.s:hover .text {
+    overflow:visible;
+    
+}
+button.btnlm{
+  padding: 5px 10px 2px 2px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 500;
+    background: #ff5f95;
+    color: white;
+
+}
+div.rect{
+    width: 400px;
+    margin:10% 0px 0px 250px;
+    background: blue;
+    height: 4px;
+
+}
