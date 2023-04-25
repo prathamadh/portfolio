@@ -90,8 +90,17 @@ height: 800px;
     padding-top: 20px;
     
 }
+div.fourthpage{
+    background: url(moapps.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+height: 800px;
+    min-height: 700;
+    padding-top: 100px;
+    
+}
 div.card.s{
-    height: 190px;
+    height: 175px;
     width: 230px;
     position: absolute;
     margin-left: 50%;
@@ -145,9 +154,27 @@ button.btnlm{
 
 }
 div.rect{
-    width: 400px;
-    margin:10% 0px 0px 250px;
+    width: 450px;
+    margin:15% 0px 0px 250px;
     background: blue;
     height: 4px;
 
+}
+div.arrow1{
+    display: flex;
+}
+div.arrow2{
+    padding-top: 100px;
+    display: flex;
+    
+}
+div.rect2{
+    width: 250px;
+    margin:15% 0px 0px 250px;
+    background: blue;
+    height: 4px;
+
+}
+div.arrow2 .card.s{
+    transform: translateX(-200px);
 }
